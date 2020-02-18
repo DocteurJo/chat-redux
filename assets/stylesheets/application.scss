@@ -1,7 +1,99 @@
 body {
   font-family: Helvetica;
 }
+
+// APP DISPO
 .app {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+// CHANNEL TITLE
+.selectedChannel {
+  margin-top: 30px;
+  border-bottom: 1px solid;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  font-weight: bold;
+
+}
+
+.all-channels {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.left {
+  padding-left: 30px;
+  background-color: #BAD9B5;
+}
+
+.right {
+  padding-right: 30px;
+  background-color: #EFF7CF;
+}
+
+// MESSAGE LIST
+
+.message-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+// MESSAGE
+.notification {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  background: white;
+  margin-left: 10px;
+}
+
+.notification .notification-content {
+  flex-grow: 1;
+  padding: 14px;
+}
+
+.notification .notification-content .author {
+  color: #BF2424;
+  font-weight: bold;
+}
+
+
+.notification p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.notification small {
+  color: #999999;
+  margin: 0;
+  line-height: 1.4;
+}
+
+
+// CHAT FORM
+
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #1EDD88;
+  transition: background 0.3s ease;
+}
+
+.btn-flat:hover {
+  background: #1BCB7F;
+  color: white;
+}
+
+// CHANNEL LIST
+
+.listSelectedChannel {
+  font-weight: bold;
+}
+
+.channel-list {
+  list-style: none;
 }
